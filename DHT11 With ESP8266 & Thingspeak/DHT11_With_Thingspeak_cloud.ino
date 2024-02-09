@@ -16,13 +16,13 @@ See <http://www.techeonics.com> for details.
 #include "ThingSpeak.h"
 #include <DHT.h>
 
-const char* ssid = "Pi01"; // Name of the Network.
-const char* password = "123456789"; // Password of the Network.
+const char* ssid = "xxx"; // Name of the Network.
+const char* password = "xxxx"; // Password of the Network.
 
 WiFiClient client; // Create a Wi-Fi client to connect to ThingSpeak.
 
 unsigned long myChannelNumber = 1; // Channel No
-const char * myWriteAPIKey = "KJLJ1G9OZ6R7CUSQ"; // API write key.
+const char * myWriteAPIKey = "xxxxxxxxx"; // API write key.
 
 
 #define DHTPIN D5
